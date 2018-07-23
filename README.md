@@ -21,15 +21,15 @@ The model is trained under GPU mode by default. You can use CPU mode by setting 
 
 Run these script in the root path of this project.
 
-### prepare_dataset&ckpt.sh
+#### prepare_dataset&ckpt.sh:
 Download the [flowers dataset](http://download.tensorflow.org/example_images/flower_photos.tgz) and checkpoint file [inception_resnet_v2_2016_08_30.tar.gz](http://download.tensorflow.org/models/inception_resnet_v2_2016_08_30.tar.gz)
 
-### train_inception_resnet_v2_classifier.sh
+#### train_inception_resnet_v2_classifier.sh:
 Feed in the flowers dataset and train the pre-trained inception_resnet_v2. The checkpoint file will be saved in to ***train/flowers/inception_resnet_v2*** by default.
 
-### evaluate_classifier.sh
+#### evaluate_classifier.sh:
 Evaluate the performance of the trained model.
 
-### predict_single_image.sh
+#### predict_single_image.sh:
 Feed in a single image in to the model and get the prediction results.
 
