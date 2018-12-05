@@ -10,7 +10,7 @@ please make sure the following items are ready on your machine.
  
 1. TensorFlow
 2. TF-slim: make sure path is added to $PYTHONPATH
-3. Run scripts under under TensorFlow env
+3. Run scripts under TensorFlow env
 
 
 ## Scripts 
